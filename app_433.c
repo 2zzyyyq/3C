@@ -358,18 +358,6 @@ uint8_t analysis_capture_command(CAPTURE_COMMAND *Capture_Command,uint8_t power_
   {
   	ret=TRUE;
   }
-  if(ret==TRUE)//遥控器码正确，判断是不是对应功能的命令
-  {
-  	  ret=FALSE;
-	  for(i=0;i<11;i++)
-	  {	
-	  	if(Capture_Command->Command_data==Function_Cmd[Function_select.Function][i])
-		{
-			ret=TRUE;
-			break;
-		}
-	  }
-  }
   return ret;
 }
 
