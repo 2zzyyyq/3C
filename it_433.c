@@ -15,7 +15,7 @@ void HAL_TIM1_CC_IRQHandler_BACK(void)
 			/* Clear TIM_OUTPWM Capture compare interrupt pending bit */
 			/* Get the Input Capture value */
 			PWM_cycle = TIM_GetCap2(TIMx_433);
-	    Hlevel=TIM_GetCap1(TIMx_433) ;
+	        Hlevel=TIM_GetCap1(TIMx_433) ;
 	    if(Hlevel!=0)
 			{
 				Record_PulseWidth(Hlevel,&Capture_Command);

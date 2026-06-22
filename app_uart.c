@@ -262,10 +262,7 @@ void data_handle(void)
 
         /* -- Network state change (long format): "down MIIO_net_change xxx" -- */
         /* (Model_Net_Change handler currently disabled) */
-				
-				
-				
-				
+ 	
 	//Model_Net_Now();
         /* -- Power off: "down power_off" -- */
         if (strcmp(MiioConst.poweroff, buf) == 0)

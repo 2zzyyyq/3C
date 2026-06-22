@@ -1101,8 +1101,6 @@ Section Cross References
     app_433.o(.text.analysis_capture_command) refers to app_433.o(.bss.Flag) for Flag
     app_433.o(.text.analysis_capture_command) refers to app_motor.o(.bss.Device_State_Data) for Device_State_Data
     app_433.o(.text.analysis_capture_command) refers to app_433.o(.bss.Flash_Data) for Flash_Data
-    app_433.o(.text.analysis_capture_command) refers to it_adc.o(.bss.Function_select) for Function_select
-    app_433.o(.text.analysis_capture_command) refers to app_433.o(.rodata.Function_Cmd) for Function_Cmd
     app_433.o(.ARM.exidx.text.analysis_capture_command) refers to app_433.o(.text.analysis_capture_command) for [Anonymous Symbol]
     app_433.o(.text.capture_433key_judge_answer) refers to app_433.o(.text.analysis_capture_command) for analysis_capture_command
     app_433.o(.text.capture_433key_judge_answer) refers to app_buzz.o(.text.SetupBzhx) for SetupBzhx
@@ -2323,210 +2321,209 @@ Image Symbol Table
     __arm_cp.0_22                            0x080082a8   Number         4  app_limt.o(.text.alarm_signal_test_and_beep)
     __arm_cp.0_23                            0x080082ac   Number         4  app_limt.o(.text.alarm_signal_test_and_beep)
     [Anonymous Symbol]                       0x080082b0   Section        0  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_0                             0x08008478   Number         4  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_1                             0x0800847c   Number         4  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_2                             0x08008480   Number         4  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_3                             0x08008484   Number         4  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_4                             0x08008488   Number         4  app_433.o(.text.analysis_capture_command)
-    __arm_cp.2_5                             0x0800848c   Number         4  app_433.o(.text.analysis_capture_command)
-    [Anonymous Symbol]                       0x08008490   Section        0  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_0                             0x080087a8   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_1                             0x080087ac   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_2                             0x080087b0   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_3                             0x080087b4   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_4                             0x080087b8   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_7                             0x080087bc   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_8                             0x080087c0   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_9                             0x080087c4   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_10                            0x080087c8   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_11                            0x080087cc   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_12                            0x080087d0   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    __arm_cp.3_13                            0x080087d4   Number         4  app_433.o(.text.capture_433key_judge_answer)
-    [Anonymous Symbol]                       0x080087d8   Section        0  app_uart.o(.text.data_handle)
-    __arm_cp.1_0                             0x08008994   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_1                             0x08008998   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_2                             0x0800899c   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_3                             0x080089a0   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_4                             0x080089a4   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_5                             0x080089a8   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_6                             0x080089ac   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_7                             0x080089b0   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_8                             0x080089b4   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_9                             0x080089b8   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_10                            0x080089bc   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_11                            0x080089c0   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_12                            0x080089c4   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_13                            0x080089c8   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_14                            0x080089cc   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_15                            0x080089d0   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_16                            0x080089d4   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_17                            0x080089d8   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_18                            0x080089dc   Number         4  app_uart.o(.text.data_handle)
-    __arm_cp.1_19                            0x080089e0   Number         4  app_uart.o(.text.data_handle)
-    [Anonymous Symbol]                       0x080089e4   Section        0  dri_uart.o(.text.get_queue_total_data)
-    __arm_cp.4_0                             0x080089f4   Number         4  dri_uart.o(.text.get_queue_total_data)
-    __arm_cp.4_1                             0x080089f8   Number         4  dri_uart.o(.text.get_queue_total_data)
-    [Anonymous Symbol]                       0x080089fc   Section        0  app_433.o(.text.judge_remote_control)
-    __arm_cp.0_0                             0x08008aac   Number         4  app_433.o(.text.judge_remote_control)
-    __arm_cp.0_1                             0x08008ab0   Number         4  app_433.o(.text.judge_remote_control)
-    __arm_cp.0_2                             0x08008ab4   Number         4  app_433.o(.text.judge_remote_control)
-    [Anonymous Symbol]                       0x08008ab8   Section        0  app_led.o(.text.light_work)
-    __arm_cp.1_1                             0x08008cd4   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_2                             0x08008cd8   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_3                             0x08008cdc   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_5                             0x08008ce0   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_6                             0x08008ce4   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_7                             0x08008ce8   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_8                             0x08008cec   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_9                             0x08008cf0   Number         4  app_led.o(.text.light_work)
-    __arm_cp.1_10                            0x08008cf4   Number         4  app_led.o(.text.light_work)
-    [Anonymous Symbol]                       0x08008cf8   Section        0  app_limt.o(.text.limit_protect)
-    __arm_cp.1_0                             0x08008ea0   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_1                             0x08008ea4   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_3                             0x08008ea8   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_4                             0x08008eac   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_6                             0x08008eb0   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_7                             0x08008eb4   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_8                             0x08008eb8   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_9                             0x08008ebc   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_10                            0x08008ec0   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_11                            0x08008ec4   Number         4  app_limt.o(.text.limit_protect)
-    __arm_cp.1_12                            0x08008ec8   Number         4  app_limt.o(.text.limit_protect)
-    [Anonymous Symbol]                       0x08008ecc   Section        0  dri_uart.o(.text.log_init)
-    __arm_cp.0_0                             0x08008f3c   Number         4  dri_uart.o(.text.log_init)
-    __arm_cp.0_1                             0x08008f40   Number         4  dri_uart.o(.text.log_init)
-    __arm_cp.0_2                             0x08008f44   Number         4  dri_uart.o(.text.log_init)
-    __arm_cp.0_3                             0x08008f48   Number         4  dri_uart.o(.text.log_init)
-    [Anonymous Symbol]                       0x08008f4c   Section        0  main.o(.text.main)
-    __arm_cp.0_0                             0x08009078   Number         4  main.o(.text.main)
-    __arm_cp.0_1                             0x0800907c   Number         4  main.o(.text.main)
-    __arm_cp.0_2                             0x08009080   Number         4  main.o(.text.main)
-    __arm_cp.0_3                             0x08009084   Number         4  main.o(.text.main)
-    __arm_cp.0_5                             0x08009088   Number         4  main.o(.text.main)
-    __arm_cp.0_7                             0x0800908c   Number         4  main.o(.text.main)
-    __arm_cp.0_8                             0x08009090   Number         4  main.o(.text.main)
-    __arm_cp.0_9                             0x08009094   Number         4  main.o(.text.main)
-    [Anonymous Symbol]                       0x08009098   Section        0  app_flash.o(.text.match_data_clear)
-    __arm_cp.3_0                             0x080090e4   Number         4  app_flash.o(.text.match_data_clear)
-    __arm_cp.3_2                             0x080090e8   Number         4  app_flash.o(.text.match_data_clear)
-    [Anonymous Symbol]                       0x080090ec   Section        0  app_flash.o(.text.match_data_del)
-    __arm_cp.4_0                             0x080091fc   Number         4  app_flash.o(.text.match_data_del)
-    __arm_cp.4_1                             0x08009200   Number         4  app_flash.o(.text.match_data_del)
-    __arm_cp.4_2                             0x08009204   Number         4  app_flash.o(.text.match_data_del)
-    __arm_cp.4_3                             0x08009208   Number         4  app_flash.o(.text.match_data_del)
-    __arm_cp.4_4                             0x0800920c   Number         4  app_flash.o(.text.match_data_del)
-    __arm_cp.4_5                             0x08009210   Number         4  app_flash.o(.text.match_data_del)
-    [Anonymous Symbol]                       0x08009214   Section        0  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    __arm_cp.3_1                             0x08009258   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    __arm_cp.3_2                             0x0800925c   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    __arm_cp.3_3                             0x08009260   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    __arm_cp.3_4                             0x08009264   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    [Anonymous Symbol]                       0x08009268   Section        0  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_0                             0x080092d8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_1                             0x080092dc   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_2                             0x080092e0   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_3                             0x080092e4   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_4                             0x080092e8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_5                             0x080092ec   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_6                             0x080092f0   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_7                             0x080092f4   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_8                             0x080092f8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_9                             0x080092fc   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    __arm_cp.1_10                            0x08009300   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
-    [Anonymous Symbol]                       0x08009304   Section        0  app_motor.o(.text.motor_stop)
-    [Anonymous Symbol]                       0x0800930c   Section        0  app_motor.o(.text.motor_work)
-    __arm_cp.6_0                             0x080093e4   Number         4  app_motor.o(.text.motor_work)
-    __arm_cp.6_1                             0x080093e8   Number         4  app_motor.o(.text.motor_work)
-    __arm_cp.6_2                             0x080093ec   Number         4  app_motor.o(.text.motor_work)
-    __arm_cp.6_3                             0x080093f0   Number         4  app_motor.o(.text.motor_work)
-    __arm_cp.6_4                             0x080093f4   Number         4  app_motor.o(.text.motor_work)
-    [Anonymous Symbol]                       0x080093f8   Section        0  app_uart.o(.text.properties_up)
-    __arm_cp.9_35                            0x080097b4   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_36                            0x080097b8   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_38                            0x080097c0   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_39                            0x080097c4   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_41                            0x080097d0   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_42                            0x080097d4   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_43                            0x080097d8   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_44                            0x080097dc   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_50                            0x08009bf8   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_56                            0x08009c60   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_3                             0x08009dac   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_14                            0x08009db0   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_15                            0x08009db4   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_19                            0x08009db8   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_20                            0x08009dbc   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_21                            0x08009dc0   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_24                            0x08009ddc   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_29                            0x08009e10   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_30                            0x08009e14   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_31                            0x08009e18   Number         4  app_uart.o(.text.properties_up)
-    __arm_cp.9_32                            0x08009e1c   Number         4  app_uart.o(.text.properties_up)
-    [Anonymous Symbol]                       0x08009e20   Section        0  dri_uart.o(.text.r_uart0_protocol_init)
-    [Anonymous Symbol]                       0x08009e2c   Section        0  dri_uart.o(.text.r_uart0_receive_input)
-    __arm_cp.7_0                             0x08009e58   Number         4  dri_uart.o(.text.r_uart0_receive_input)
-    __arm_cp.7_1                             0x08009e5c   Number         4  dri_uart.o(.text.r_uart0_receive_input)
-    __arm_cp.7_2                             0x08009e60   Number         4  dri_uart.o(.text.r_uart0_receive_input)
-    [Anonymous Symbol]                       0x08009e64   Section        0  dri_uart.o(.text.r_uart0_send_bytes)
-    __arm_cp.6_0                             0x08009e9c   Number         4  dri_uart.o(.text.r_uart0_send_bytes)
-    __arm_cp.6_1                             0x08009ea0   Number         4  dri_uart.o(.text.r_uart0_send_bytes)
-    [Anonymous Symbol]                       0x08009ea4   Section        0  app_uart.o(.text.r_uart0_service)
-    __arm_cp.0_0                             0x08009ed0   Number         4  app_uart.o(.text.r_uart0_service)
-    __arm_cp.0_1                             0x08009ed4   Number         4  app_uart.o(.text.r_uart0_service)
-    [Anonymous Symbol]                       0x08009ed8   Section        0  app_flash.o(.text.read_data)
-    __arm_cp.0_1                             0x0800a0e4   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_2                             0x0800a0e8   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_3                             0x0800a0ec   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_7                             0x0800a0f0   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_8                             0x0800a0f4   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_9                             0x0800a0f8   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_12                            0x0800a0fc   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_13                            0x0800a100   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_14                            0x0800a104   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_15                            0x0800a108   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_16                            0x0800a10c   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_18                            0x0800a110   Number         4  app_flash.o(.text.read_data)
-    __arm_cp.0_19                            0x0800a114   Number         4  app_flash.o(.text.read_data)
-    [Anonymous Symbol]                       0x0800a118   Section        0  app_flash.o(.text.save_current_position)
-    __arm_cp.2_0                             0x0800a140   Number         4  app_flash.o(.text.save_current_position)
-    __arm_cp.2_1                             0x0800a144   Number         4  app_flash.o(.text.save_current_position)
-    __arm_cp.2_2                             0x0800a148   Number         4  app_flash.o(.text.save_current_position)
-    [Anonymous Symbol]                       0x0800a14c   Section        0  app_flash.o(.text.save_data)
-    __arm_cp.1_0                             0x0800a174   Number         4  app_flash.o(.text.save_data)
-    __arm_cp.1_1                             0x0800a178   Number         4  app_flash.o(.text.save_data)
-    [Anonymous Symbol]                       0x0800a17c   Section        0  app_flash.o(.text.variable_init)
-    __arm_cp.6_0                             0x0800a1e4   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_1                             0x0800a1e8   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_2                             0x0800a1ec   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_3                             0x0800a1f0   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_4                             0x0800a1f4   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_5                             0x0800a1f8   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_6                             0x0800a1fc   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_7                             0x0800a200   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_8                             0x0800a204   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_9                             0x0800a208   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_10                            0x0800a20c   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_11                            0x0800a210   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_12                            0x0800a214   Number         4  app_flash.o(.text.variable_init)
-    __arm_cp.6_13                            0x0800a218   Number         4  app_flash.o(.text.variable_init)
-    i.__0snprintf$8                          0x0800a21c   Section        0  printf8.o(i.__0snprintf$8)
-    i.__ARM_clz                              0x0800a254   Section        0  depilogue.o(i.__ARM_clz)
-    i.__scatterload_copy                     0x0800a282   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x0800a290   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x0800a292   Section       14  handlers.o(i.__scatterload_zeroinit)
-    _printf_core                             0x0800a2a1   Thumb Code  1020  printf8.o(i._printf_core)
-    i._printf_core                           0x0800a2a0   Section        0  printf8.o(i._printf_core)
-    _printf_post_padding                     0x0800a6c9   Thumb Code    32  printf8.o(i._printf_post_padding)
-    i._printf_post_padding                   0x0800a6c8   Section        0  printf8.o(i._printf_post_padding)
-    _printf_pre_padding                      0x0800a6e9   Thumb Code    44  printf8.o(i._printf_pre_padding)
-    i._printf_pre_padding                    0x0800a6e8   Section        0  printf8.o(i._printf_pre_padding)
-    _snputc                                  0x0800a715   Thumb Code    22  printf8.o(i._snputc)
-    i._snputc                                0x0800a714   Section        0  printf8.o(i._snputc)
-    [Anonymous Symbol]                       0x0800a800   Section        0  n32g033_rcc.o(.rodata.cst16)
-    sinPwmTable                              0x0800a810   Data         202  app_motor.o(.rodata.sinPwmTable)
-    [Anonymous Symbol]                       0x0800a810   Section        0  app_motor.o(.rodata.sinPwmTable)
-    [Anonymous Symbol]                       0x0800a8da   Section        0  app_uart.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x0800ac48   Section        0  app_uart.o(.rodata.str1.4)
+    __arm_cp.2_0                             0x0800845c   Number         4  app_433.o(.text.analysis_capture_command)
+    __arm_cp.2_1                             0x08008460   Number         4  app_433.o(.text.analysis_capture_command)
+    __arm_cp.2_2                             0x08008464   Number         4  app_433.o(.text.analysis_capture_command)
+    __arm_cp.2_3                             0x08008468   Number         4  app_433.o(.text.analysis_capture_command)
+    [Anonymous Symbol]                       0x0800846c   Section        0  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_0                             0x08008784   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_1                             0x08008788   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_2                             0x0800878c   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_3                             0x08008790   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_4                             0x08008794   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_6                             0x08008798   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_7                             0x0800879c   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_8                             0x080087a0   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_9                             0x080087a4   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_10                            0x080087a8   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_11                            0x080087ac   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_12                            0x080087b0   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    __arm_cp.3_13                            0x080087b4   Number         4  app_433.o(.text.capture_433key_judge_answer)
+    [Anonymous Symbol]                       0x080087b8   Section        0  app_uart.o(.text.data_handle)
+    __arm_cp.1_0                             0x08008974   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_1                             0x08008978   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_2                             0x0800897c   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_3                             0x08008980   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_4                             0x08008984   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_5                             0x08008988   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_6                             0x0800898c   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_7                             0x08008990   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_8                             0x08008994   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_9                             0x08008998   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_10                            0x0800899c   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_11                            0x080089a0   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_12                            0x080089a4   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_13                            0x080089a8   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_14                            0x080089ac   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_15                            0x080089b0   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_16                            0x080089b4   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_17                            0x080089b8   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_18                            0x080089bc   Number         4  app_uart.o(.text.data_handle)
+    __arm_cp.1_19                            0x080089c0   Number         4  app_uart.o(.text.data_handle)
+    [Anonymous Symbol]                       0x080089c4   Section        0  dri_uart.o(.text.get_queue_total_data)
+    __arm_cp.4_0                             0x080089d4   Number         4  dri_uart.o(.text.get_queue_total_data)
+    __arm_cp.4_1                             0x080089d8   Number         4  dri_uart.o(.text.get_queue_total_data)
+    [Anonymous Symbol]                       0x080089dc   Section        0  app_433.o(.text.judge_remote_control)
+    __arm_cp.0_0                             0x08008a8c   Number         4  app_433.o(.text.judge_remote_control)
+    __arm_cp.0_1                             0x08008a90   Number         4  app_433.o(.text.judge_remote_control)
+    __arm_cp.0_2                             0x08008a94   Number         4  app_433.o(.text.judge_remote_control)
+    [Anonymous Symbol]                       0x08008a98   Section        0  app_led.o(.text.light_work)
+    __arm_cp.1_1                             0x08008cb4   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_2                             0x08008cb8   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_3                             0x08008cbc   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_5                             0x08008cc0   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_6                             0x08008cc4   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_7                             0x08008cc8   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_8                             0x08008ccc   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_9                             0x08008cd0   Number         4  app_led.o(.text.light_work)
+    __arm_cp.1_10                            0x08008cd4   Number         4  app_led.o(.text.light_work)
+    [Anonymous Symbol]                       0x08008cd8   Section        0  app_limt.o(.text.limit_protect)
+    __arm_cp.1_0                             0x08008e80   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_1                             0x08008e84   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_3                             0x08008e88   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_4                             0x08008e8c   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_6                             0x08008e90   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_7                             0x08008e94   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_8                             0x08008e98   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_9                             0x08008e9c   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_10                            0x08008ea0   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_11                            0x08008ea4   Number         4  app_limt.o(.text.limit_protect)
+    __arm_cp.1_12                            0x08008ea8   Number         4  app_limt.o(.text.limit_protect)
+    [Anonymous Symbol]                       0x08008eac   Section        0  dri_uart.o(.text.log_init)
+    __arm_cp.0_0                             0x08008f1c   Number         4  dri_uart.o(.text.log_init)
+    __arm_cp.0_1                             0x08008f20   Number         4  dri_uart.o(.text.log_init)
+    __arm_cp.0_2                             0x08008f24   Number         4  dri_uart.o(.text.log_init)
+    __arm_cp.0_3                             0x08008f28   Number         4  dri_uart.o(.text.log_init)
+    [Anonymous Symbol]                       0x08008f2c   Section        0  main.o(.text.main)
+    __arm_cp.0_0                             0x08009058   Number         4  main.o(.text.main)
+    __arm_cp.0_1                             0x0800905c   Number         4  main.o(.text.main)
+    __arm_cp.0_2                             0x08009060   Number         4  main.o(.text.main)
+    __arm_cp.0_3                             0x08009064   Number         4  main.o(.text.main)
+    __arm_cp.0_5                             0x08009068   Number         4  main.o(.text.main)
+    __arm_cp.0_7                             0x0800906c   Number         4  main.o(.text.main)
+    __arm_cp.0_8                             0x08009070   Number         4  main.o(.text.main)
+    __arm_cp.0_9                             0x08009074   Number         4  main.o(.text.main)
+    [Anonymous Symbol]                       0x08009078   Section        0  app_flash.o(.text.match_data_clear)
+    __arm_cp.3_0                             0x080090c4   Number         4  app_flash.o(.text.match_data_clear)
+    __arm_cp.3_2                             0x080090c8   Number         4  app_flash.o(.text.match_data_clear)
+    [Anonymous Symbol]                       0x080090cc   Section        0  app_flash.o(.text.match_data_del)
+    __arm_cp.4_0                             0x080091dc   Number         4  app_flash.o(.text.match_data_del)
+    __arm_cp.4_1                             0x080091e0   Number         4  app_flash.o(.text.match_data_del)
+    __arm_cp.4_2                             0x080091e4   Number         4  app_flash.o(.text.match_data_del)
+    __arm_cp.4_3                             0x080091e8   Number         4  app_flash.o(.text.match_data_del)
+    __arm_cp.4_4                             0x080091ec   Number         4  app_flash.o(.text.match_data_del)
+    __arm_cp.4_5                             0x080091f0   Number         4  app_flash.o(.text.match_data_del)
+    [Anonymous Symbol]                       0x080091f4   Section        0  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    __arm_cp.3_1                             0x08009238   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    __arm_cp.3_2                             0x0800923c   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    __arm_cp.3_3                             0x08009240   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    __arm_cp.3_4                             0x08009244   Number         4  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    [Anonymous Symbol]                       0x08009248   Section        0  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_0                             0x080092b8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_1                             0x080092bc   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_2                             0x080092c0   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_3                             0x080092c4   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_4                             0x080092c8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_5                             0x080092cc   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_6                             0x080092d0   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_7                             0x080092d4   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_8                             0x080092d8   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_9                             0x080092dc   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    __arm_cp.1_10                            0x080092e0   Number         4  app_adc_1.o(.text.motor_current_to_advalue)
+    [Anonymous Symbol]                       0x080092e4   Section        0  app_motor.o(.text.motor_stop)
+    [Anonymous Symbol]                       0x080092ec   Section        0  app_motor.o(.text.motor_work)
+    __arm_cp.6_0                             0x080093c4   Number         4  app_motor.o(.text.motor_work)
+    __arm_cp.6_1                             0x080093c8   Number         4  app_motor.o(.text.motor_work)
+    __arm_cp.6_2                             0x080093cc   Number         4  app_motor.o(.text.motor_work)
+    __arm_cp.6_3                             0x080093d0   Number         4  app_motor.o(.text.motor_work)
+    __arm_cp.6_4                             0x080093d4   Number         4  app_motor.o(.text.motor_work)
+    [Anonymous Symbol]                       0x080093d8   Section        0  app_uart.o(.text.properties_up)
+    __arm_cp.9_35                            0x08009794   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_36                            0x08009798   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_38                            0x080097a0   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_39                            0x080097a4   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_41                            0x080097b0   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_42                            0x080097b4   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_43                            0x080097b8   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_44                            0x080097bc   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_50                            0x08009bd8   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_56                            0x08009c40   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_3                             0x08009d8c   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_14                            0x08009d90   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_15                            0x08009d94   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_19                            0x08009d98   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_20                            0x08009d9c   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_21                            0x08009da0   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_24                            0x08009dbc   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_29                            0x08009df0   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_30                            0x08009df4   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_31                            0x08009df8   Number         4  app_uart.o(.text.properties_up)
+    __arm_cp.9_32                            0x08009dfc   Number         4  app_uart.o(.text.properties_up)
+    [Anonymous Symbol]                       0x08009e00   Section        0  dri_uart.o(.text.r_uart0_protocol_init)
+    [Anonymous Symbol]                       0x08009e0c   Section        0  dri_uart.o(.text.r_uart0_receive_input)
+    __arm_cp.7_0                             0x08009e38   Number         4  dri_uart.o(.text.r_uart0_receive_input)
+    __arm_cp.7_1                             0x08009e3c   Number         4  dri_uart.o(.text.r_uart0_receive_input)
+    __arm_cp.7_2                             0x08009e40   Number         4  dri_uart.o(.text.r_uart0_receive_input)
+    [Anonymous Symbol]                       0x08009e44   Section        0  dri_uart.o(.text.r_uart0_send_bytes)
+    __arm_cp.6_0                             0x08009e7c   Number         4  dri_uart.o(.text.r_uart0_send_bytes)
+    __arm_cp.6_1                             0x08009e80   Number         4  dri_uart.o(.text.r_uart0_send_bytes)
+    [Anonymous Symbol]                       0x08009e84   Section        0  app_uart.o(.text.r_uart0_service)
+    __arm_cp.0_0                             0x08009eb0   Number         4  app_uart.o(.text.r_uart0_service)
+    __arm_cp.0_1                             0x08009eb4   Number         4  app_uart.o(.text.r_uart0_service)
+    [Anonymous Symbol]                       0x08009eb8   Section        0  app_flash.o(.text.read_data)
+    __arm_cp.0_1                             0x0800a0c4   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_2                             0x0800a0c8   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_3                             0x0800a0cc   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_7                             0x0800a0d0   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_8                             0x0800a0d4   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_9                             0x0800a0d8   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_12                            0x0800a0dc   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_13                            0x0800a0e0   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_14                            0x0800a0e4   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_15                            0x0800a0e8   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_16                            0x0800a0ec   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_18                            0x0800a0f0   Number         4  app_flash.o(.text.read_data)
+    __arm_cp.0_19                            0x0800a0f4   Number         4  app_flash.o(.text.read_data)
+    [Anonymous Symbol]                       0x0800a0f8   Section        0  app_flash.o(.text.save_current_position)
+    __arm_cp.2_0                             0x0800a120   Number         4  app_flash.o(.text.save_current_position)
+    __arm_cp.2_1                             0x0800a124   Number         4  app_flash.o(.text.save_current_position)
+    __arm_cp.2_2                             0x0800a128   Number         4  app_flash.o(.text.save_current_position)
+    [Anonymous Symbol]                       0x0800a12c   Section        0  app_flash.o(.text.save_data)
+    __arm_cp.1_0                             0x0800a154   Number         4  app_flash.o(.text.save_data)
+    __arm_cp.1_1                             0x0800a158   Number         4  app_flash.o(.text.save_data)
+    [Anonymous Symbol]                       0x0800a15c   Section        0  app_flash.o(.text.variable_init)
+    __arm_cp.6_0                             0x0800a1c4   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_1                             0x0800a1c8   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_2                             0x0800a1cc   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_3                             0x0800a1d0   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_4                             0x0800a1d4   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_5                             0x0800a1d8   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_6                             0x0800a1dc   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_7                             0x0800a1e0   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_8                             0x0800a1e4   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_9                             0x0800a1e8   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_10                            0x0800a1ec   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_11                            0x0800a1f0   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_12                            0x0800a1f4   Number         4  app_flash.o(.text.variable_init)
+    __arm_cp.6_13                            0x0800a1f8   Number         4  app_flash.o(.text.variable_init)
+    i.__0snprintf$8                          0x0800a1fc   Section        0  printf8.o(i.__0snprintf$8)
+    i.__ARM_clz                              0x0800a234   Section        0  depilogue.o(i.__ARM_clz)
+    i.__scatterload_copy                     0x0800a262   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x0800a270   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x0800a272   Section       14  handlers.o(i.__scatterload_zeroinit)
+    _printf_core                             0x0800a281   Thumb Code  1020  printf8.o(i._printf_core)
+    i._printf_core                           0x0800a280   Section        0  printf8.o(i._printf_core)
+    _printf_post_padding                     0x0800a6a9   Thumb Code    32  printf8.o(i._printf_post_padding)
+    i._printf_post_padding                   0x0800a6a8   Section        0  printf8.o(i._printf_post_padding)
+    _printf_pre_padding                      0x0800a6c9   Thumb Code    44  printf8.o(i._printf_pre_padding)
+    i._printf_pre_padding                    0x0800a6c8   Section        0  printf8.o(i._printf_pre_padding)
+    _snputc                                  0x0800a6f5   Thumb Code    22  printf8.o(i._snputc)
+    i._snputc                                0x0800a6f4   Section        0  printf8.o(i._snputc)
+    [Anonymous Symbol]                       0x0800a792   Section        0  n32g033_rcc.o(.rodata.cst16)
+    sinPwmTable                              0x0800a7a2   Data         202  app_motor.o(.rodata.sinPwmTable)
+    [Anonymous Symbol]                       0x0800a7a2   Section        0  app_motor.o(.rodata.sinPwmTable)
+    [Anonymous Symbol]                       0x0800a86c   Section        0  app_uart.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x0800abdc   Section        0  app_uart.o(.rodata.str1.4)
     HAL_EXIT_IRQHandler_BACK.down_pluse_flag 0x20000218   Data           1  it_exit.o(.bss.HAL_EXIT_IRQHandler_BACK.down_pluse_flag)
     [Anonymous Symbol]                       0x20000218   Section        0  it_exit.o(.bss.HAL_EXIT_IRQHandler_BACK.down_pluse_flag)
     HAL_EXIT_IRQHandler_BACK.temp_level      0x20000219   Data           1  it_exit.o(.bss.HAL_EXIT_IRQHandler_BACK.temp_level)
@@ -2801,49 +2798,48 @@ Image Symbol Table
     _150ms_work                              0x08007aed   Thumb Code   364  app_uart.o(.text._150ms_work)
     _220AC_Power_down_save                   0x08007c9d   Thumb Code    68  app_flash.o(.text._220AC_Power_down_save)
     alarm_signal_test_and_beep               0x08007ce9   Thumb Code  1400  app_limt.o(.text.alarm_signal_test_and_beep)
-    analysis_capture_command                 0x080082b1   Thumb Code   456  app_433.o(.text.analysis_capture_command)
-    capture_433key_judge_answer              0x08008491   Thumb Code   792  app_433.o(.text.capture_433key_judge_answer)
-    data_handle                              0x080087d9   Thumb Code   444  app_uart.o(.text.data_handle)
-    get_queue_total_data                     0x080089e5   Thumb Code    16  dri_uart.o(.text.get_queue_total_data)
-    judge_remote_control                     0x080089fd   Thumb Code   176  app_433.o(.text.judge_remote_control)
-    light_work                               0x08008ab9   Thumb Code   540  app_led.o(.text.light_work)
-    limit_protect                            0x08008cf9   Thumb Code   424  app_limt.o(.text.limit_protect)
-    log_init                                 0x08008ecd   Thumb Code   112  dri_uart.o(.text.log_init)
-    main                                     0x08008f4d   Thumb Code   300  main.o(.text.main)
-    match_data_clear                         0x08009099   Thumb Code    76  app_flash.o(.text.match_data_clear)
-    match_data_del                           0x080090ed   Thumb Code   272  app_flash.o(.text.match_data_del)
-    mcu_common_uart_data_unpack              0x08009215   Thumb Code    68  dri_uart.o(.text.mcu_common_uart_data_unpack)
-    motor_current_to_advalue                 0x08009269   Thumb Code   112  app_adc_1.o(.text.motor_current_to_advalue)
-    motor_stop                               0x08009305   Thumb Code     8  app_motor.o(.text.motor_stop)
-    motor_work                               0x0800930d   Thumb Code   216  app_motor.o(.text.motor_work)
-    properties_up                            0x080093f9   Thumb Code  2480  app_uart.o(.text.properties_up)
-    r_uart0_protocol_init                    0x08009e21   Thumb Code    12  dri_uart.o(.text.r_uart0_protocol_init)
-    r_uart0_receive_input                    0x08009e2d   Thumb Code    44  dri_uart.o(.text.r_uart0_receive_input)
-    r_uart0_send_bytes                       0x08009e65   Thumb Code    56  dri_uart.o(.text.r_uart0_send_bytes)
-    r_uart0_service                          0x08009ea5   Thumb Code    44  app_uart.o(.text.r_uart0_service)
-    read_data                                0x08009ed9   Thumb Code   524  app_flash.o(.text.read_data)
-    save_current_position                    0x0800a119   Thumb Code    40  app_flash.o(.text.save_current_position)
-    save_data                                0x0800a14d   Thumb Code    40  app_flash.o(.text.save_data)
-    variable_init                            0x0800a17d   Thumb Code   104  app_flash.o(.text.variable_init)
-    __0snprintf$8                            0x0800a21d   Thumb Code    50  printf8.o(i.__0snprintf$8)
-    __1snprintf$8                            0x0800a21d   Thumb Code     0  printf8.o(i.__0snprintf$8)
-    __2snprintf                              0x0800a21d   Thumb Code     0  printf8.o(i.__0snprintf$8)
-    __ARM_clz                                0x0800a255   Thumb Code    46  depilogue.o(i.__ARM_clz)
-    __scatterload_copy                       0x0800a283   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x0800a291   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x0800a293   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    Bzx1                                     0x0800a72c   Data          16  app_buzz.o(.rodata.Bzx1)
-    Bzx2                                     0x0800a73c   Data          16  app_buzz.o(.rodata.Bzx2)
-    Bzx3                                     0x0800a74c   Data          16  app_buzz.o(.rodata.Bzx3)
-    Bzx4                                     0x0800a75c   Data          16  app_buzz.o(.rodata.Bzx4)
-    Bzx5                                     0x0800a76c   Data          16  app_buzz.o(.rodata.Bzx5)
-    Bzx6                                     0x0800a77c   Data          16  app_buzz.o(.rodata.Bzx6)
-    Bzx7                                     0x0800a78c   Data          16  app_buzz.o(.rodata.Bzx7)
-    Bzx8                                     0x0800a79c   Data          16  app_buzz.o(.rodata.Bzx8)
-    Function_Cmd                             0x0800a7ac   Data          77  app_433.o(.rodata.Function_Cmd)
-    LIGHE_COLOR                              0x0800a7fa   Data           6  app_led.o(.rodata.LIGHE_COLOR)
-    Region$$Table$$Base                      0x0800ae3c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0800ae5c   Number         0  anon$$obj.o(Region$$Table)
+    analysis_capture_command                 0x080082b1   Thumb Code   428  app_433.o(.text.analysis_capture_command)
+    capture_433key_judge_answer              0x0800846d   Thumb Code   792  app_433.o(.text.capture_433key_judge_answer)
+    data_handle                              0x080087b9   Thumb Code   444  app_uart.o(.text.data_handle)
+    get_queue_total_data                     0x080089c5   Thumb Code    16  dri_uart.o(.text.get_queue_total_data)
+    judge_remote_control                     0x080089dd   Thumb Code   176  app_433.o(.text.judge_remote_control)
+    light_work                               0x08008a99   Thumb Code   540  app_led.o(.text.light_work)
+    limit_protect                            0x08008cd9   Thumb Code   424  app_limt.o(.text.limit_protect)
+    log_init                                 0x08008ead   Thumb Code   112  dri_uart.o(.text.log_init)
+    main                                     0x08008f2d   Thumb Code   300  main.o(.text.main)
+    match_data_clear                         0x08009079   Thumb Code    76  app_flash.o(.text.match_data_clear)
+    match_data_del                           0x080090cd   Thumb Code   272  app_flash.o(.text.match_data_del)
+    mcu_common_uart_data_unpack              0x080091f5   Thumb Code    68  dri_uart.o(.text.mcu_common_uart_data_unpack)
+    motor_current_to_advalue                 0x08009249   Thumb Code   112  app_adc_1.o(.text.motor_current_to_advalue)
+    motor_stop                               0x080092e5   Thumb Code     8  app_motor.o(.text.motor_stop)
+    motor_work                               0x080092ed   Thumb Code   216  app_motor.o(.text.motor_work)
+    properties_up                            0x080093d9   Thumb Code  2480  app_uart.o(.text.properties_up)
+    r_uart0_protocol_init                    0x08009e01   Thumb Code    12  dri_uart.o(.text.r_uart0_protocol_init)
+    r_uart0_receive_input                    0x08009e0d   Thumb Code    44  dri_uart.o(.text.r_uart0_receive_input)
+    r_uart0_send_bytes                       0x08009e45   Thumb Code    56  dri_uart.o(.text.r_uart0_send_bytes)
+    r_uart0_service                          0x08009e85   Thumb Code    44  app_uart.o(.text.r_uart0_service)
+    read_data                                0x08009eb9   Thumb Code   524  app_flash.o(.text.read_data)
+    save_current_position                    0x0800a0f9   Thumb Code    40  app_flash.o(.text.save_current_position)
+    save_data                                0x0800a12d   Thumb Code    40  app_flash.o(.text.save_data)
+    variable_init                            0x0800a15d   Thumb Code   104  app_flash.o(.text.variable_init)
+    __0snprintf$8                            0x0800a1fd   Thumb Code    50  printf8.o(i.__0snprintf$8)
+    __1snprintf$8                            0x0800a1fd   Thumb Code     0  printf8.o(i.__0snprintf$8)
+    __2snprintf                              0x0800a1fd   Thumb Code     0  printf8.o(i.__0snprintf$8)
+    __ARM_clz                                0x0800a235   Thumb Code    46  depilogue.o(i.__ARM_clz)
+    __scatterload_copy                       0x0800a263   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x0800a271   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x0800a273   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    Bzx1                                     0x0800a70c   Data          16  app_buzz.o(.rodata.Bzx1)
+    Bzx2                                     0x0800a71c   Data          16  app_buzz.o(.rodata.Bzx2)
+    Bzx3                                     0x0800a72c   Data          16  app_buzz.o(.rodata.Bzx3)
+    Bzx4                                     0x0800a73c   Data          16  app_buzz.o(.rodata.Bzx4)
+    Bzx5                                     0x0800a74c   Data          16  app_buzz.o(.rodata.Bzx5)
+    Bzx6                                     0x0800a75c   Data          16  app_buzz.o(.rodata.Bzx6)
+    Bzx7                                     0x0800a76c   Data          16  app_buzz.o(.rodata.Bzx7)
+    Bzx8                                     0x0800a77c   Data          16  app_buzz.o(.rodata.Bzx8)
+    LIGHE_COLOR                              0x0800a78c   Data           6  app_led.o(.rodata.LIGHE_COLOR)
+    Region$$Table$$Base                      0x0800add0   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0800adf0   Number         0  anon$$obj.o(Region$$Table)
     Buz                                      0x20000000   Data           4  app_buzz.o(.data.Buz)
     Up_Motor_Properties                      0x20000004   Data          20  app_uart.o(.data.Up_Motor_Properties)
     key_fixed                                0x20000018   Data           8  keelop_crc.o(.data.key_fixed)
@@ -2935,9 +2931,9 @@ Memory Map of the image
 
   Image Entry point : 0x08003095
 
-  Load Region LR_IROM1 (Base: 0x08003000, Size: 0x00007e80, Max: 0x00010000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08003000, Size: 0x00007e10, Max: 0x00010000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x08003000, Load base: 0x08003000, Size: 0x00007e5c, Max: 0x00010000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08003000, Load base: 0x08003000, Size: 0x00007df0, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -3115,72 +3111,70 @@ Memory Map of the image
     0x08007aec   0x08007aec   0x000001b0   Code   RO         1375    .text._150ms_work   app_uart.o
     0x08007c9c   0x08007c9c   0x0000004c   Code   RO         1614    .text._220AC_Power_down_save  app_flash.o
     0x08007ce8   0x08007ce8   0x000005c8   Code   RO         1521    .text.alarm_signal_test_and_beep  app_limt.o
-    0x080082b0   0x080082b0   0x000001e0   Code   RO         1419    .text.analysis_capture_command  app_433.o
-    0x08008490   0x08008490   0x00000348   Code   RO         1421    .text.capture_433key_judge_answer  app_433.o
-    0x080087d8   0x080087d8   0x0000020c   Code   RO         1361    .text.data_handle   app_uart.o
-    0x080089e4   0x080089e4   0x00000018   Code   RO         1210    .text.get_queue_total_data  dri_uart.o
-    0x080089fc   0x080089fc   0x000000bc   Code   RO         1415    .text.judge_remote_control  app_433.o
-    0x08008ab8   0x08008ab8   0x00000240   Code   RO         1580    .text.light_work    app_led.o
-    0x08008cf8   0x08008cf8   0x000001d4   Code   RO         1523    .text.limit_protect  app_limt.o
-    0x08008ecc   0x08008ecc   0x00000080   Code   RO         1202    .text.log_init      dri_uart.o
-    0x08008f4c   0x08008f4c   0x0000014c   Code   RO         1106    .text.main          main.o
-    0x08009098   0x08009098   0x00000054   Code   RO         1610    .text.match_data_clear  app_flash.o
-    0x080090ec   0x080090ec   0x00000128   Code   RO         1612    .text.match_data_del  app_flash.o
-    0x08009214   0x08009214   0x00000054   Code   RO         1208    .text.mcu_common_uart_data_unpack  dri_uart.o
-    0x08009268   0x08009268   0x0000009c   Code   RO         1541    .text.motor_current_to_advalue  app_adc_1.o
-    0x08009304   0x08009304   0x00000008   Code   RO         1474    .text.motor_stop    app_motor.o
-    0x0800930c   0x0800930c   0x000000ec   Code   RO         1482    .text.motor_work    app_motor.o
-    0x080093f8   0x080093f8   0x00000a28   Code   RO         1377    .text.properties_up  app_uart.o
-    0x08009e20   0x08009e20   0x0000000c   Code   RO         1206    .text.r_uart0_protocol_init  dri_uart.o
-    0x08009e2c   0x08009e2c   0x00000038   Code   RO         1216    .text.r_uart0_receive_input  dri_uart.o
-    0x08009e64   0x08009e64   0x00000040   Code   RO         1214    .text.r_uart0_send_bytes  dri_uart.o
-    0x08009ea4   0x08009ea4   0x00000034   Code   RO         1359    .text.r_uart0_service  app_uart.o
-    0x08009ed8   0x08009ed8   0x00000240   Code   RO         1604    .text.read_data     app_flash.o
-    0x0800a118   0x0800a118   0x00000034   Code   RO         1608    .text.save_current_position  app_flash.o
-    0x0800a14c   0x0800a14c   0x00000030   Code   RO         1606    .text.save_data     app_flash.o
-    0x0800a17c   0x0800a17c   0x000000a0   Code   RO         1616    .text.variable_init  app_flash.o
-    0x0800a21c   0x0800a21c   0x00000038   Code   RO         1863    i.__0snprintf$8     mc_p.l(printf8.o)
-    0x0800a254   0x0800a254   0x0000002e   Code   RO         1974    i.__ARM_clz         mf_p.l(depilogue.o)
-    0x0800a282   0x0800a282   0x0000000e   Code   RO         1984    i.__scatterload_copy  mc_p.l(handlers.o)
-    0x0800a290   0x0800a290   0x00000002   Code   RO         1985    i.__scatterload_null  mc_p.l(handlers.o)
-    0x0800a292   0x0800a292   0x0000000e   Code   RO         1986    i.__scatterload_zeroinit  mc_p.l(handlers.o)
-    0x0800a2a0   0x0800a2a0   0x00000428   Code   RO         1869    i._printf_core      mc_p.l(printf8.o)
-    0x0800a6c8   0x0800a6c8   0x00000020   Code   RO         1870    i._printf_post_padding  mc_p.l(printf8.o)
-    0x0800a6e8   0x0800a6e8   0x0000002c   Code   RO         1871    i._printf_pre_padding  mc_p.l(printf8.o)
-    0x0800a714   0x0800a714   0x00000016   Code   RO         1872    i._snputc           mc_p.l(printf8.o)
-    0x0800a72a   0x0800a72a   0x00000002   PAD
-    0x0800a72c   0x0800a72c   0x00000010   Data   RO         1446    .rodata.Bzx1        app_buzz.o
-    0x0800a73c   0x0800a73c   0x00000010   Data   RO         1447    .rodata.Bzx2        app_buzz.o
-    0x0800a74c   0x0800a74c   0x00000010   Data   RO         1448    .rodata.Bzx3        app_buzz.o
-    0x0800a75c   0x0800a75c   0x00000010   Data   RO         1449    .rodata.Bzx4        app_buzz.o
-    0x0800a76c   0x0800a76c   0x00000010   Data   RO         1450    .rodata.Bzx5        app_buzz.o
-    0x0800a77c   0x0800a77c   0x00000010   Data   RO         1451    .rodata.Bzx6        app_buzz.o
-    0x0800a78c   0x0800a78c   0x00000010   Data   RO         1452    .rodata.Bzx7        app_buzz.o
-    0x0800a79c   0x0800a79c   0x00000010   Data   RO         1453    .rodata.Bzx8        app_buzz.o
-    0x0800a7ac   0x0800a7ac   0x0000004d   Data   RO         1423    .rodata.Function_Cmd  app_433.o
-    0x0800a7f9   0x0800a7f9   0x00000001   PAD
-    0x0800a7fa   0x0800a7fa   0x00000006   Data   RO         1586    .rodata.LIGHE_COLOR  app_led.o
-    0x0800a800   0x0800a800   0x00000010   Data   RO          653    .rodata.cst16       n32g033_rcc.o
-    0x0800a810   0x0800a810   0x000000ca   Data   RO         1502    .rodata.sinPwmTable  app_motor.o
-    0x0800a8da   0x0800a8da   0x0000036d   Data   RO         1396    .rodata.str1.1      app_uart.o
-    0x0800ac47   0x0800ac47   0x00000001   PAD
-    0x0800ac48   0x0800ac48   0x000001f3   Data   RO         1398    .rodata.str1.4      app_uart.o
-    0x0800ae3b   0x0800ae3b   0x00000001   PAD
-    0x0800ae3c   0x0800ae3c   0x00000020   Data   RO         1983    Region$$Table       anon$$obj.o
+    0x080082b0   0x080082b0   0x000001bc   Code   RO         1419    .text.analysis_capture_command  app_433.o
+    0x0800846c   0x0800846c   0x0000034c   Code   RO         1421    .text.capture_433key_judge_answer  app_433.o
+    0x080087b8   0x080087b8   0x0000020c   Code   RO         1361    .text.data_handle   app_uart.o
+    0x080089c4   0x080089c4   0x00000018   Code   RO         1210    .text.get_queue_total_data  dri_uart.o
+    0x080089dc   0x080089dc   0x000000bc   Code   RO         1415    .text.judge_remote_control  app_433.o
+    0x08008a98   0x08008a98   0x00000240   Code   RO         1580    .text.light_work    app_led.o
+    0x08008cd8   0x08008cd8   0x000001d4   Code   RO         1523    .text.limit_protect  app_limt.o
+    0x08008eac   0x08008eac   0x00000080   Code   RO         1202    .text.log_init      dri_uart.o
+    0x08008f2c   0x08008f2c   0x0000014c   Code   RO         1106    .text.main          main.o
+    0x08009078   0x08009078   0x00000054   Code   RO         1610    .text.match_data_clear  app_flash.o
+    0x080090cc   0x080090cc   0x00000128   Code   RO         1612    .text.match_data_del  app_flash.o
+    0x080091f4   0x080091f4   0x00000054   Code   RO         1208    .text.mcu_common_uart_data_unpack  dri_uart.o
+    0x08009248   0x08009248   0x0000009c   Code   RO         1541    .text.motor_current_to_advalue  app_adc_1.o
+    0x080092e4   0x080092e4   0x00000008   Code   RO         1474    .text.motor_stop    app_motor.o
+    0x080092ec   0x080092ec   0x000000ec   Code   RO         1482    .text.motor_work    app_motor.o
+    0x080093d8   0x080093d8   0x00000a28   Code   RO         1377    .text.properties_up  app_uart.o
+    0x08009e00   0x08009e00   0x0000000c   Code   RO         1206    .text.r_uart0_protocol_init  dri_uart.o
+    0x08009e0c   0x08009e0c   0x00000038   Code   RO         1216    .text.r_uart0_receive_input  dri_uart.o
+    0x08009e44   0x08009e44   0x00000040   Code   RO         1214    .text.r_uart0_send_bytes  dri_uart.o
+    0x08009e84   0x08009e84   0x00000034   Code   RO         1359    .text.r_uart0_service  app_uart.o
+    0x08009eb8   0x08009eb8   0x00000240   Code   RO         1604    .text.read_data     app_flash.o
+    0x0800a0f8   0x0800a0f8   0x00000034   Code   RO         1608    .text.save_current_position  app_flash.o
+    0x0800a12c   0x0800a12c   0x00000030   Code   RO         1606    .text.save_data     app_flash.o
+    0x0800a15c   0x0800a15c   0x000000a0   Code   RO         1616    .text.variable_init  app_flash.o
+    0x0800a1fc   0x0800a1fc   0x00000038   Code   RO         1863    i.__0snprintf$8     mc_p.l(printf8.o)
+    0x0800a234   0x0800a234   0x0000002e   Code   RO         1974    i.__ARM_clz         mf_p.l(depilogue.o)
+    0x0800a262   0x0800a262   0x0000000e   Code   RO         1984    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x0800a270   0x0800a270   0x00000002   Code   RO         1985    i.__scatterload_null  mc_p.l(handlers.o)
+    0x0800a272   0x0800a272   0x0000000e   Code   RO         1986    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x0800a280   0x0800a280   0x00000428   Code   RO         1869    i._printf_core      mc_p.l(printf8.o)
+    0x0800a6a8   0x0800a6a8   0x00000020   Code   RO         1870    i._printf_post_padding  mc_p.l(printf8.o)
+    0x0800a6c8   0x0800a6c8   0x0000002c   Code   RO         1871    i._printf_pre_padding  mc_p.l(printf8.o)
+    0x0800a6f4   0x0800a6f4   0x00000016   Code   RO         1872    i._snputc           mc_p.l(printf8.o)
+    0x0800a70a   0x0800a70a   0x00000002   PAD
+    0x0800a70c   0x0800a70c   0x00000010   Data   RO         1446    .rodata.Bzx1        app_buzz.o
+    0x0800a71c   0x0800a71c   0x00000010   Data   RO         1447    .rodata.Bzx2        app_buzz.o
+    0x0800a72c   0x0800a72c   0x00000010   Data   RO         1448    .rodata.Bzx3        app_buzz.o
+    0x0800a73c   0x0800a73c   0x00000010   Data   RO         1449    .rodata.Bzx4        app_buzz.o
+    0x0800a74c   0x0800a74c   0x00000010   Data   RO         1450    .rodata.Bzx5        app_buzz.o
+    0x0800a75c   0x0800a75c   0x00000010   Data   RO         1451    .rodata.Bzx6        app_buzz.o
+    0x0800a76c   0x0800a76c   0x00000010   Data   RO         1452    .rodata.Bzx7        app_buzz.o
+    0x0800a77c   0x0800a77c   0x00000010   Data   RO         1453    .rodata.Bzx8        app_buzz.o
+    0x0800a78c   0x0800a78c   0x00000006   Data   RO         1586    .rodata.LIGHE_COLOR  app_led.o
+    0x0800a792   0x0800a792   0x00000010   Data   RO          653    .rodata.cst16       n32g033_rcc.o
+    0x0800a7a2   0x0800a7a2   0x000000ca   Data   RO         1502    .rodata.sinPwmTable  app_motor.o
+    0x0800a86c   0x0800a86c   0x0000036d   Data   RO         1396    .rodata.str1.1      app_uart.o
+    0x0800abd9   0x0800abd9   0x00000003   PAD
+    0x0800abdc   0x0800abdc   0x000001f3   Data   RO         1398    .rodata.str1.4      app_uart.o
+    0x0800adcf   0x0800adcf   0x00000001   PAD
+    0x0800add0   0x0800add0   0x00000020   Data   RO         1983    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800ae60, Size: 0x00000ab8, Max: 0x00001800, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0800adf0, Size: 0x00000ab8, Max: 0x00001800, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x0800ae60   0x00000004   Data   RW         1461    .data.Buz           app_buzz.o
-    0x20000004   0x0800ae64   0x00000014   Data   RW         1397    .data.Up_Motor_Properties  app_uart.o
-    0x20000018   0x0800ae78   0x00000008   Data   RW         1259    .data.key_fixed     keelop_crc.o
+    0x20000000   0x0800adf0   0x00000004   Data   RW         1461    .data.Buz           app_buzz.o
+    0x20000004   0x0800adf4   0x00000014   Data   RW         1397    .data.Up_Motor_Properties  app_uart.o
+    0x20000018   0x0800ae08   0x00000008   Data   RW         1259    .data.key_fixed     keelop_crc.o
     0x20000020        -       0x00000016   Zero   RW         1566    .bss.ADC_read_buf   app_adc_1.o
     0x20000036        -       0x00000002   Zero   RW         1558    .bss.ADC_sample_max  app_adc_1.o
     0x20000038        -       0x00000002   Zero   RW         1559    .bss.ADC_sample_min  app_adc_1.o
     0x2000003a        -       0x00000001   Zero   RW         1546    .bss.ADC_sample_num  app_adc_1.o
-    0x2000003b   0x0800ae80   0x00000001   PAD
+    0x2000003b   0x0800ae10   0x00000001   PAD
     0x2000003c        -       0x00000030   Zero   RW         1460    .bss.Bzx            app_buzz.o
     0x2000006c        -       0x0000012c   Zero   RW         1425    .bss.Capture_Command  app_433.o
     0x20000198        -       0x00000028   Zero   RW         1494    .bss.Device_State_Data  app_motor.o
@@ -3190,42 +3184,42 @@ Memory Map of the image
     0x200001cb        -       0x00000001   Zero   RW         1618    .bss.FDL_Block0_Save_Times  app_flash.o
     0x200001cc        -       0x00000001   Zero   RW         1619    .bss.FDL_Block1_Save_Times  app_flash.o
     0x200001cd        -       0x00000006   Zero   RW         1427    .bss.Flag           app_433.o
-    0x200001d3   0x0800ae80   0x00000001   PAD
+    0x200001d3   0x0800ae10   0x00000001   PAD
     0x200001d4        -       0x00000030   Zero   RW         1424    .bss.Flash_Data     app_433.o
     0x20000204        -       0x00000002   Zero   RW         1390    .bss.Frame_length   app_uart.o
-    0x20000206   0x0800ae80   0x00000002   PAD
+    0x20000206   0x0800ae10   0x00000002   PAD
     0x20000208        -       0x00000004   Zero   RW         1274    .bss.Frequency      it_433.o
     0x2000020c        -       0x0000000c   Zero   RW         1351    .bss.Function_select  it_adc.o
     0x20000218        -       0x00000001   Zero   RW         1337    .bss.HAL_EXIT_IRQHandler_BACK.down_pluse_flag  it_exit.o
     0x20000219        -       0x00000001   Zero   RW         1336    .bss.HAL_EXIT_IRQHandler_BACK.temp_level  it_exit.o
     0x2000021a        -       0x00000002   Zero   RW         1275    .bss.Hlevel         it_433.o
     0x2000021c        -       0x00000001   Zero   RW         1505    .bss.Holl_Circle_num  app_motor.o
-    0x2000021d   0x0800ae80   0x00000001   PAD
+    0x2000021d   0x0800ae10   0x00000001   PAD
     0x2000021e        -       0x00000002   Zero   RW         1496    .bss.Holl_pulse_temp  app_motor.o
     0x20000220        -       0x00000004   Zero   RW         1508    .bss.Holl_test_speed_temp  app_motor.o
     0x20000224        -       0x00000008   Zero   RW         1591    .bss.Led            app_led.o
     0x2000022c        -       0x00000002   Zero   RW         1584    .bss.Light_colour_temperature_gear  app_led.o
-    0x2000022e   0x0800ae80   0x00000002   PAD
+    0x2000022e   0x0800ae10   0x00000002   PAD
     0x20000230        -       0x00000004   Zero   RW         1276    .bss.LowLevelTime   it_433.o
     0x20000234        -       0x00000001   Zero   RW         1506    .bss.Motor_Circle_num  app_motor.o
-    0x20000235   0x0800ae80   0x00000003   PAD
+    0x20000235   0x0800ae10   0x00000003   PAD
     0x20000238        -       0x0000000c   Zero   RW         1349    .bss.Motor_Current  it_adc.o
     0x20000244        -       0x00000004   Zero   RW         1507    .bss.Motor_Current_Position_pulse  app_motor.o
     0x20000248        -       0x00000001   Zero   RW         1501    .bss.Motor_speed.pwmModeActive  app_motor.o
-    0x20000249   0x0800ae80   0x00000001   PAD
+    0x20000249   0x0800ae10   0x00000001   PAD
     0x2000024a        -       0x00000002   Zero   RW         1500    .bss.Motor_speed.stepCounter  app_motor.o
     0x2000024c        -       0x00000020   Zero   RW         1260    .bss.NLF            keelop_crc.o
     0x2000026c        -       0x00000001   Zero   RW         1509    .bss.Net_state      app_motor.o
-    0x2000026d   0x0800ae80   0x00000003   PAD
+    0x2000026d   0x0800ae10   0x00000003   PAD
     0x20000270        -       0x00000010   Zero   RW         1350    .bss.Overweight_Correct  it_adc.o
     0x20000280        -       0x00000002   Zero   RW         1272    .bss.PWM_cycle      it_433.o
-    0x20000282   0x0800ae80   0x00000002   PAD
+    0x20000282   0x0800ae10   0x00000002   PAD
     0x20000284        -       0x00000004   Zero   RW         1190    .bss.PrescalerValue  dri_timer.o
     0x20000288        -       0x00000002   Zero   RW         1426    .bss.Record_PulseWidth.real_tau0_ch7_width  app_433.o
     0x2000028a        -       0x00000001   Zero   RW         1430    .bss.STOP_CMD_Repeat  app_433.o
     0x2000028b        -       0x00000001   Zero   RW         1495    .bss.Soft_start_moveA  app_motor.o
     0x2000028c        -       0x00000001   Zero   RW         1429    .bss.Study_Cmd_Repeat  app_433.o
-    0x2000028d   0x0800ae80   0x00000001   PAD
+    0x2000028d   0x0800ae10   0x00000001   PAD
     0x2000028e        -       0x00000006   Zero   RW         1620    .bss.Synchronous_Count_value  app_flash.o
     0x20000294        -       0x00000014   Zero   RW         1193    .bss.TIM_ICInitStructure  dri_timer.o
     0x200002a8        -       0x00000020   Zero   RW         1192    .bss.TIM_OCInitStructure  dri_timer.o
@@ -3234,19 +3228,19 @@ Memory Map of the image
     0x20000320        -       0x00000002   Zero   RW         1389    .bss.UART_RX_Count  app_uart.o
     0x20000322        -       0x00000028   Zero   RW         1491    .bss.Up_State_Data  app_motor.o
     0x2000034a        -       0x00000001   Zero   RW         1401    .bss._hour          app_uart.o
-    0x2000034b   0x0800ae80   0x00000005   PAD
+    0x2000034b   0x0800ae10   0x00000005   PAD
     0x20000350        -       0x00000008   Zero   RW         1261    .bss._key           keelop_crc.o
     0x20000358        -       0x00000001   Zero   RW         1402    .bss._min           app_uart.o
     0x20000359        -       0x00000001   Zero   RW         1348    .bss.adc_conversion_complete  it_adc.o
     0x2000035a        -       0x00000002   Zero   RW         1347    .bss.adc_value_pa0  it_adc.o
     0x2000035c        -       0x00000001   Zero   RW         1525    .bss.alarm_signal_test_and_beep._10ms_step  app_limt.o
-    0x2000035d   0x0800ae80   0x00000001   PAD
+    0x2000035d   0x0800ae10   0x00000001   PAD
     0x2000035e        -       0x00000002   Zero   RW         1526    .bss.alarm_signal_test_and_beep.sum  app_limt.o
     0x20000360        -       0x00000001   Zero   RW         1458    .bss.beep_step      app_buzz.o
     0x20000361        -       0x00000001   Zero   RW         1459    .bss.beep_step_temp  app_buzz.o
     0x20000362        -       0x00000002   Zero   RW         1588    .bss.brightness_target  app_led.o
     0x20000364        -       0x00000002   Zero   RW         1589    .bss.brightness_temp  app_led.o
-    0x20000366   0x0800ae80   0x00000002   PAD
+    0x20000366   0x0800ae10   0x00000002   PAD
     0x20000368        -       0x0000000c   Zero   RW         1432    .bss.capture_433key  app_433.o
     0x20000374        -       0x00000002   Zero   RW         1428    .bss.capture_433key_judge_answer.Capture_433KEY_LONG_TICKS  app_433.o
     0x20000376        -       0x00000002   Zero   RW         1585    .bss.colour_temperature_temp  app_led.o
@@ -3257,22 +3251,22 @@ Memory Map of the image
     0x2000037c        -       0x00000003   Zero   RW         1395    .bss.g_DevStatus    app_uart.o
     0x2000037f        -       0x00000001   Zero   RW         1393    .bss.g_MiioRoundFlag  app_uart.o
     0x20000380        -       0x00000002   Zero   RW         1321    .bss.g_uart0_tx_count  n32g033_it.o
-    0x20000382   0x0800ae80   0x00000002   PAD
+    0x20000382   0x0800ae10   0x00000002   PAD
     0x20000384        -       0x00000004   Zero   RW         1322    .bss.gp_uart0_tx_address  n32g033_it.o
     0x20000388        -       0x00000001   Zero   RW         1391    .bss.idx            app_uart.o
     0x20000389        -       0x00000001   Zero   RW         1503    .bss.last_motor_state  app_motor.o
     0x2000038a        -       0x00000001   Zero   RW         1587    .bss.light_key_time  app_led.o
-    0x2000038b   0x0800ae80   0x00000001   PAD
+    0x2000038b   0x0800ae10   0x00000001   PAD
     0x2000038c        -       0x00000004   Zero   RW         1403    .bss.min_data_now   app_uart.o
     0x20000390        -       0x00000004   Zero   RW         1404    .bss.min_start_data_flash  app_uart.o
     0x20000394        -       0x00000004   Zero   RW         1405    .bss.min_stop_data_flash  app_uart.o
     0x20000398        -       0x00000001   Zero   RW         1400    .bss.offset_value   app_uart.o
-    0x20000399   0x0800ae80   0x00000003   PAD
+    0x20000399   0x0800ae10   0x00000003   PAD
     0x2000039c        -       0x00000004   Zero   RW         1545    .bss.over_weight_current  app_adc_1.o
     0x200003a0        -       0x00000004   Zero   RW         1222    .bss.queue_in       dri_uart.o
     0x200003a4        -       0x00000004   Zero   RW         1223    .bss.queue_out      dri_uart.o
     0x200003a8        -       0x00000001   Zero   RW         1320    .bss.send_busy      n32g033_it.o
-    0x200003a9   0x0800ae80   0x00000001   PAD
+    0x200003a9   0x0800ae10   0x00000001   PAD
     0x200003aa        -       0x00000002   Zero   RW         1493    .bss.set_down_limit_value  app_motor.o
     0x200003ac        -       0x00000002   Zero   RW         1499    .bss.set_position_pulse  app_motor.o
     0x200003ae        -       0x00000002   Zero   RW         1497    .bss.set_up_limit_value  app_motor.o
@@ -3280,7 +3274,7 @@ Memory Map of the image
     0x200003b1        -       0x00000100   Zero   RW         1221    .bss.uart0_queue_buf  dri_uart.o
     0x200004b1        -       0x00000100   Zero   RW         1224    .bss.uart1_rx_buf   dri_uart.o
     0x200005b1        -       0x00000100   Zero   RW         1225    .bss.uart1_tx_buf   dri_uart.o
-    0x200006b1   0x0800ae80   0x00000007   PAD
+    0x200006b1   0x0800ae10   0x00000007   PAD
     0x200006b8        -       0x00000400   Zero   RW            1    STACK               startup_n32g033.o
 
 
@@ -3291,7 +3285,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1900        120         77          0        372       7667   app_433.o
+      1868        116          0          0        372       7587   app_433.o
        156         44          0          0         31       1959   app_adc_1.o
        396         96        128          4         52       2950   app_buzz.o
       1292        168          0          0          8       3827   app_flash.o
@@ -3326,9 +3320,9 @@ Image component sizes
        140         16          0          0          0       2638   system_n32g033.o
 
     ----------------------------------------------------------------------
-     26742       2892       1990         32       2712     191213   Object Totals
+     26710       2888       1914         32       2712     191133   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-        18          0          3          0         39          0   (incl. Padding)
+        18          0          4          0         39          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -3391,15 +3385,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     30358       2998       1990         32       2712     192001   Grand Totals
-     30358       2998       1990         32       2712     192001   ELF Image Totals
-     30358       2998       1990         32          0          0   ROM Totals
+     30326       2994       1914         32       2712     191921   Grand Totals
+     30326       2994       1914         32       2712     191921   ELF Image Totals
+     30326       2994       1914         32          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                32348 (  31.59kB)
+    Total RO  Size (Code + RO Data)                32240 (  31.48kB)
     Total RW  Size (RW Data + ZI Data)              2744 (   2.68kB)
-    Total ROM Size (Code + RO Data + RW Data)      32380 (  31.62kB)
+    Total ROM Size (Code + RO Data + RW Data)      32272 (  31.52kB)
 
 ==============================================================================
 
