@@ -103,7 +103,7 @@ int main(void)
           r_uart0_service();     // wifi处理
 
         //  Ovreweight_current_correct();
-          limit_protect();       // 限位检测判断
+        //    limit_protect();       // 限位检测判断
 			
           ADC_StartConversion();
 			 //掉电保存
@@ -122,8 +122,7 @@ int main(void)
 						#else
 					
 						Motor_speed();
-					
-					
+
 						#endif
 					
 					  capture_433key_judge_answer((button*)&capture_433key, Flag.power_on_10stime_flag); // 检测及响应遥控器
