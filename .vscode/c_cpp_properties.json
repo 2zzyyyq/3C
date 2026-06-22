@@ -3,19 +3,20 @@
         {
             "name": "Target_1",
             "includePath": [
-                "e:\\N32\\N32G033\\n32g033_std_periph_driver\\inc",
-                "e:\\N32\\N32G033\\n32g033_std_periph_driver\\src",
-                "e:\\N32\\N32G033\\CMSIS\\core",
-                "e:\\N32\\N32G033\\CMSIS\\device\\startup",
-                "e:\\N32\\N32G033\\USER\\src",
-                "e:\\N32\\N32G033\\USER\\inc",
-                "e:\\N32\\N32G033\\CMSIS\\device",
-                "e:\\N32\\N32G033\\DVI\\src",
-                "e:\\N32\\N32G033",
-                "D:\\keil5\\ARM\\ARMCLANG\\include",
-                "D:\\keil5\\ARM\\ARMCLANG\\include\\arm_linux",
-                "D:\\keil5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
-                "D:\\keil5\\ARM\\ARMCLANG\\include\\libcxx"
+                "d:\\github_code\\3C\\n32g033_std_periph_driver\\inc",
+                "d:\\github_code\\3C\\n32g033_std_periph_driver\\src",
+                "d:\\github_code\\3C\\CMSIS\\core",
+                "d:\\github_code\\3C\\CMSIS\\device\\startup",
+                "d:\\github_code\\3C\\USER\\src",
+                "d:\\github_code\\3C\\USER\\inc",
+                "d:\\github_code\\3C\\CMSIS\\device",
+                "d:\\github_code\\3C\\DVI\\src",
+                "d:\\github_code\\N32G033",
+                "D:\\KEILV5\\ARM\\ARMCLANG\\include",
+                "D:\\KEILV5\\ARM\\ARMCLANG\\include\\arm_linux",
+                "D:\\KEILV5\\ARM\\ARMCLANG\\include\\arm_linux_compat",
+                "D:\\KEILV5\\ARM\\ARMCLANG\\include\\libcxx",
+                "d:\\github_code\\3C"
             ],
             "defines": [
                 "__alignof__(x)=",
