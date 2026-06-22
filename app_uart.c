@@ -91,7 +91,7 @@ void r_uart0_service(void)
     if(mcu_common_uart_data_unpack(Queue_Read_Byte()))//收到一包数据
     {
 	        data_handle();//解析数据包
-          memset((char *)uart1_rx_buf,0,sizeof(uart1_rx_buf));
+            memset((char *)uart1_rx_buf,0,sizeof(uart1_rx_buf));
 	        UART_RX_Count = 0;
 			 
     }
@@ -291,8 +291,6 @@ void data_handle(void)
     break;
 
 
-
-
     case 'e':  /* "error\r" */
         if (strcmp(MiioConst.error, buf) == 0)
         {
@@ -338,8 +336,6 @@ clear_buf:
     memset(uart1_rx_buf, 0, Frame_length > 180 ? Frame_length : 180);
 }
 
-
-
 void BootLoardDeal(void)
 { 
  	MOTOR_DN_IO(0);//停止电机
@@ -361,7 +357,7 @@ void BootLoardDeal(void)
 	Flash_WriteStruct(FDL_Block0+FDL_Block0_Save_Times*sizeof(Flash_Data),(uint8_t*)&Flash_Data,sizeof(Flash_Data));//写入一次	
 	FDL_Block1_Save_Times=FDL_BLOCK1_ONCE_MAX_WRITE_NUM-1;
 	Flash_WriteStruct(FDL_Block1+FDL_Block1_Save_Times*sizeof(Ell_Data),(uint8_t*)&Ell_Data,sizeof(Ell_Data));//块1写入一次	
-  NVIC_SystemReset();
+    NVIC_SystemReset();
 	while (1) 
 	{
 		
@@ -1141,7 +1137,7 @@ void Return_Properties(void)//回应app查询属性
   {
 			if(uart1_rx_buf[20+idx] == 0x32)
 		{
-      offset_value=4;
+        offset_value=4;
 		if((uart1_rx_buf[22+idx]==0x31)&&(uart1_rx_buf[23+idx]==0x32))////ppid>10运行到指定位置
 			{
 

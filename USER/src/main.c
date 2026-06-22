@@ -218,13 +218,13 @@ void NVIC_Configuration(void)
     
     /* Enable the TIM_OUTPWM Interrupt */
     NVIC_InitStructure.NVIC_IRQChannel                   = TIM6_IRQn;
-    NVIC_InitStructure.NVIC_IRQChannelPriority           = 1;
+    NVIC_InitStructure.NVIC_IRQChannelPriority           = 3;
     NVIC_InitStructure.NVIC_IRQChannelCmd                = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
  
     /* Enable the TIM_OUTPWM Interrupt */
     NVIC_InitStructure.NVIC_IRQChannel                    = TIM1_CC_IRQn;
-    NVIC_InitStructure.NVIC_IRQChannelPriority            = 1;
+    NVIC_InitStructure.NVIC_IRQChannelPriority            = 3;
     NVIC_InitStructure.NVIC_IRQChannelCmd                 = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
 
