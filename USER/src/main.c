@@ -1,6 +1,6 @@
 #include "main.h"
 
- #define OTA
+// #define OTA
 /*不能优化太大*/
 /**
 *\*\name    main.

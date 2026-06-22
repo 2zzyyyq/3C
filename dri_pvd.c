@@ -11,7 +11,7 @@ void PVD_Init(void)
 	PVD_NVIC_Configuration();
 	/* Configure the PVD Level to 2.4V ,from 2V ~ 4.8V,one step mean add 200mv*/
 	PWR_PVDLevelConfig(PWR_PVD_LEVEL_3V6);
- //	PWR_PVDFilterWidthSet(0x1F);
+   //	PWR_PVDFilterWidthSet(0x1F);
 	//PWR->CTRL &= (~PWR_CTRL_IWDGRSTEN);
 
 	/* Enable the PVD Output */

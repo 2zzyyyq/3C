@@ -1,0 +1,29 @@
+# === 编译输出 / Build Output ===
+Objects/
+Listings/
+
+# === 调试日志 / Debug Logs ===
+JLinkLog.txt
+*.log
+*.log.lock
+
+# === Keil 用户界面配置（含窗口布局等用户个人设置）===
+*.uvguix.*
+
+# === 自动生成的文件 / Auto-generated ===
+EventRecorderStub.scvd
+Target_1.BAT
+
+# === 备份文件 / Backup Files ===
+*.Bak
+
+# === 编译中间文件 / Intermediate Build Files ===
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.lnp
+*.dep
+*.iex
+*.htm
