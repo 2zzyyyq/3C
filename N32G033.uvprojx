@@ -277,7 +277,7 @@
               </OCR_RVCT3>
               <OCR_RVCT4>
                 <Type>1</Type>
-                <StartAddress>0x8003000</StartAddress>
+                <StartAddress>0x8000000</StartAddress>
                 <Size>0x10000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
@@ -541,6 +541,11 @@
               <FilePath>.\dri_uart.c</FilePath>
             </File>
             <File>
+              <FileName>dri_uart2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\dri_uart2.c</FilePath>
+            </File>
+            <File>
               <FileName>dri_pvd.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\dri_pvd.c</FilePath>
@@ -589,6 +594,11 @@
               <FileName>app_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\app_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_uart2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app_uart2.c</FilePath>
             </File>
             <File>
               <FileName>app_433.c</FileName>

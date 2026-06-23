@@ -7,7 +7,8 @@
 **/
 #include "n32g033_it.h"
 #include "main.h"
-#include <stdlib.h>  
+#include "dri_uart2.h"
+#include <stdlib.h>
 /*** Cortex-M4 Processor Exceptions Handlers ***/
  
  
@@ -171,68 +172,97 @@ extern unsigned char uart_tx_len  ;      // 保存dataNum
 #ifdef  DUG_UART
 void UART2_IRQHandler(void)
 {
-		__IO	uint8_t rx_data;
+    __IO uint8_t rx_data;
     if((UART_GetFlagStatus(LOG_UARTx, UART_FLAG_RXDNE)!= RESET))         //UART1数据接收
     {
-	 
-				UART_ClrFlag(LOG_UARTx, UART_FLAG_RXDNE);        //清中断状态位
-				rx_data = UART_ReceiveData(LOG_UARTx);   //接收数据字节
-				r_uart0_receive_input(rx_data);
+
+            UART_ClrFlag(LOG_UARTx, UART_FLAG_RXDNE);        //清中断状态位
+            rx_data = UART_ReceiveData(LOG_UARTx);   //接收数据字节
+            r_uart0_receive_input(rx_data);
 
     }
 
     if(UART_GetFlagStatus(LOG_UARTx, UART_FLAG_TXC))         //UART1数据发送
     {
-      
+
         UART_ClrFlag(LOG_UARTx, UART_FLAG_TXC);        //清中断状态位
-							
-				if (g_uart0_tx_count > 0U)
-					{
-						
-								UART_SendData(LOG_UARTx,*gp_uart0_tx_address);         //调用库函数，通过UART0发送一个字母。
-								gp_uart0_tx_address++;
-								g_uart0_tx_count--;
-					}
-					else
-					{
-						send_busy=0;
-					}
-							
+
+            if (g_uart0_tx_count > 0U)
+                {
+
+                    UART_SendData(LOG_UARTx,*gp_uart0_tx_address);         //调用库函数，通过UART0发送一个字母。
+                    gp_uart0_tx_address++;
+                    g_uart0_tx_count--;
+                }
+                else
+                {
+                  send_busy=0;
+                }
+
     }
 
 }
-#else 
+#else
 void UART1_IRQHandler(void)
 {
-			uint8_t rx_data;
-			if((UART_GetFlagStatus(LOG_UARTx, UART_FLAG_RXDNE)!= RESET))         //UART1数据接收
-			{
+    uint8_t rx_data;
+    if((UART_GetFlagStatus(LOG_UARTx, UART_FLAG_RXDNE)!= RESET))         //UART1数据接收
+    {
 
-					UART_ClrFlag(LOG_UARTx, UART_FLAG_RXDNE);        //清中断状态位
-					rx_data = UART_ReceiveData(LOG_UARTx);   //接收数据字节
-					r_uart0_receive_input(rx_data);
+            UART_ClrFlag(LOG_UARTx, UART_FLAG_RXDNE);        //清中断状态位
+            rx_data = UART_ReceiveData(LOG_UARTx);   //接收数据字节
+            r_uart0_receive_input(rx_data);
 
-			}
+    }
 
-			if(UART_GetFlagStatus(LOG_UARTx, UART_FLAG_TXC))         //UART1数据发送
-			{
+    if(UART_GetFlagStatus(LOG_UARTx, UART_FLAG_TXC))         //UART1数据发送
+    {
 
-			UART_ClrFlag(LOG_UARTx, UART_FLAG_TXC);        //清中断状态位
+        UART_ClrFlag(LOG_UARTx, UART_FLAG_TXC);        //清中断状态位
 
-			if (g_uart0_tx_count > 0U)
-			{
+        if (g_uart0_tx_count > 0U)
+        {
 
-			UART_SendData(LOG_UARTx,*gp_uart0_tx_address);         //调用库函数，通过UART0发送一个字母。
-			gp_uart0_tx_address++;
-			g_uart0_tx_count--;
-			}
-			else
-			{
-			send_busy=0;
-			}
+            UART_SendData(LOG_UARTx,*gp_uart0_tx_address);         //调用库函数，通过UART0发送一个字母。
+            gp_uart0_tx_address++;
+            g_uart0_tx_count--;
+        }
+        else
+        {
+            send_busy=0;
+        }
 
-			}
- 
+    }
+
+}
+
+/**
+ * @brief  UART2 中断服务函数（独立于 UART1，使用 UART2 硬件直接访问）
+ * @note   接收字节推入 UART2 独立环形队列；发送完成处理 UART2 TX 状态
+ */
+void UART2_IRQHandler(void)
+{
+    if (UART_GetFlagStatus(UART2, UART_FLAG_RXDNE) != RESET)
+    {
+        UART_ClrFlag(UART2, UART_FLAG_RXDNE);
+        uart2_ringbuf_put(UART_ReceiveData(UART2));
+    }
+
+    if (UART_GetFlagStatus(UART2, UART_FLAG_TXC) != RESET)
+    {
+        UART_ClrFlag(UART2, UART_FLAG_TXC);
+
+        if (uart2_tx_count > 0U)
+        {
+            UART_SendData(UART2, *uart2_tx_ptr);
+            uart2_tx_ptr++;
+            uart2_tx_count--;
+        }
+        else
+        {
+            uart2_tx_busy = 0;
+        }
+    }
 }
 #endif
 void PVD_IRQHandler(void)

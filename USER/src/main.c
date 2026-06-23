@@ -1,6 +1,8 @@
 #include "main.h"
+#include "dri_uart2.h"
+#include "app_uart2.h"
 
- #define OTA
+ //#define OTA
 /*不能优化太大*/
 /**
 *\*\name    main.
@@ -62,6 +64,9 @@ int main(void)
 			variable_init();
 			
 	 	  r_uart0_protocol_init();
+    /*UART2初始化*/
+      uart2_init(UART2_BAUDRATE);
+      uart2_protocol_init();
 			      /*I/O中断配置*/	
       KeyInputExtiInit(AC_INPUT_PORT, AC_INPUT_PIN);
 		 
@@ -101,6 +106,7 @@ int main(void)
     while (1)
 		{
           r_uart0_service();     // wifi处理
+          uart2_service();     // UART2数据处理
 
         //  Ovreweight_current_correct();
           limit_protect();       // 限位检测判断

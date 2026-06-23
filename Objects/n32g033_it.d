@@ -11,4 +11,5 @@
   n32g033_std_periph_driver\inc\n32g033_iwdg.h \
   n32g033_std_periph_driver\inc\n32g033_pwr.h \
   n32g033_std_periph_driver\inc\misc.h USER\inc\h_uart.h \
-  ..\N32G033\h_tim.h ..\N32G033\h_433.h ..\N32G033\ALL.h
+  ..\N32G033\h_tim.h ..\N32G033\h_433.h ..\N32G033\ALL.h \
+  ..\N32G033\dri_uart2.h

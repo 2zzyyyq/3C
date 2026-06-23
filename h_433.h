@@ -180,9 +180,9 @@ do { \
 
 /********************************行程参数********************************/
 #define UP_POSITION_VALUE       1000
-#define DOWN_POSITION_VALUE     5000
-#define STROKE_TOTAL            4000    // 1.3m
-#define UP_ELE_VALUE            1450
+#define DOWN_POSITION_VALUE     2850
+#define STROKE_TOTAL            1850    // 1.3m
+#define UP_ELE_VALUE            1000
 #define ONE_PERCENT_PULSE       (float)(STROKE_TOTAL/100)  // 百分之一对应霍尔数
 #define WEIGHT_C0MPENSATION      10  //重量补偿
 /********************************AD转换参数********************************/
@@ -211,7 +211,7 @@ do { \
 #define FUNCTION_L_D_F_H        0X05    // 照明消毒风干烘干
 
 /********************************电机保护参数********************************/
-#define OVER_WIGHT_REAL_CURRENT             (1.82)  // 真实电流值,默认每根杆超重21kg  1.72 17.5kg    // 采样电流值  1.61
+#define OVER_WIGHT_REAL_CURRENT             (5)  // 真实电流值,默认每根杆超重21kg  1.72 17.5kg    // 采样电流值  1.61
 #define OVER_WIGHT_CURRENT                  (float)(OVER_WIGHT_REAL_CURRENT*1.0717-0.1581) 
 #define MOTOR_OVER_WEIGHT_TIEM              60     // 超重判定持续时间,步长10ms
 #define OVER_WIGHT_CURRENT_ADVALUE_OFFSET   8      // 进入超重电流后的回滞AD值

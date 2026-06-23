@@ -104,7 +104,7 @@ I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
 I (CMSIS\device\system_n32g033.h)(0x6A338658)
 I (n32g033_std_periph_driver\inc\n32g033_rcc.h)(0x6A33865C)
-F (.\USER\src\main.c)(0x6A3881ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MMD)
+F (.\USER\src\main.c)(0x6A38C5BA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -121,8 +121,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+I (..\N32G033\dri_uart2.h)(0x6A388B8C)
+I (..\N32G033\app_uart2.h)(0x6A38C655)
 F (.\DVI\src\dri_adc.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_adc.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -140,8 +142,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\DVI\src\dri_dog.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_dog.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -159,8 +161,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\DVI\src\dri_flash.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_flash.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -178,8 +180,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\DVI\src\dri_gpio.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_gpio.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -197,8 +199,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\DVI\src\dri_timer.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_timer.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -216,8 +218,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\dri_uart.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_uart.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -235,8 +237,28 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+F (.\dri_uart2.c)(0x6A388B9E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_uart2.o -MMD)
+I (dri_uart2.h)(0x6A388B8C)
+I (USER\inc\main.h)(0x6A33865F)
+I (CMSIS\device\n32g033.h)(0x6A338658)
+I (CMSIS\core\core_cm0.h)(0x6A338656)
+I (CMSIS\device\system_n32g033.h)(0x6A338658)
+I (n32g033_std_periph_driver\inc\n32g033_exti.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_gpio.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_tim.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_rcc.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_adc.h)(0x6A33865A)
+I (n32g033_std_periph_driver\inc\n32g033_flash.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_uart.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_iwdg.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
+I (USER\inc\h_uart.h)(0x6A33865F)
+I (..\N32G033\h_tim.h)(0x6A33865A)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\dri_pvd.c)(0x6A338659)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/dri_pvd.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -254,10 +276,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\keelop_crc.c)(0x6A338807)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/keelop_crc.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -274,8 +296,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\it_433.c)(0x6A378DE2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/it_433.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -293,9 +315,9 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
-F (.\it_timer.c)(0x6A33865A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/it_timer.o -MMD)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+F (.\it_timer.c)(0x6A388BC2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/it_timer.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -312,10 +334,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
-I (ALL.h)(0x6A3387F9)
-F (.\USER\src\n32g033_it.c)(0x6A339EF9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/n32g033_it.o -MMD)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+I (ALL.h)(0x6A388BC1)
+F (.\USER\src\n32g033_it.c)(0x6A388BDB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/n32g033_it.o -MMD)
 I (USER\inc\n32g033_it.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -333,8 +355,9 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+I (..\N32G033\dri_uart2.h)(0x6A388B8C)
 F (.\it_exit.c)(0x6A338816)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/it_exit.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -352,8 +375,8 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\it_adc.c)(0x6A33865A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/it_adc.o -MMD)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
@@ -371,11 +394,11 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
-I (ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+I (ALL.h)(0x6A388BC1)
 F (.\app_uart.c)(0x6A3881BB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_uart.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -392,10 +415,31 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+F (.\app_uart2.c)(0x6A388BBC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_uart2.o -MMD)
+I (dri_uart2.h)(0x6A388B8C)
+I (USER\inc\main.h)(0x6A33865F)
+I (CMSIS\device\n32g033.h)(0x6A338658)
+I (CMSIS\core\core_cm0.h)(0x6A338656)
+I (CMSIS\device\system_n32g033.h)(0x6A338658)
+I (n32g033_std_periph_driver\inc\n32g033_exti.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_gpio.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_tim.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_rcc.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_adc.h)(0x6A33865A)
+I (n32g033_std_periph_driver\inc\n32g033_flash.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_uart.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\n32g033_iwdg.h)(0x6A33865B)
+I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
+I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
+I (USER\inc\h_uart.h)(0x6A33865F)
+I (..\N32G033\h_tim.h)(0x6A33865A)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
+I (app_uart2.h)(0x6A38C655)
 F (.\app_433.c)(0x6A378DEF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_433.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -412,10 +456,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_buzz.c)(0x6A338655)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_buzz.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -432,10 +476,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_motor.c)(0x6A338535)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_motor.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -452,10 +496,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_limt.c)(0x6A3387EE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_limt.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -472,10 +516,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_adc.c)(0x6A338655)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_adc_1.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -492,10 +536,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_led.c)(0x6A339C8F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_led.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -512,10 +556,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\app_flash.c)(0x6A338655)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Os -ffunction-sections -w -I ./n32g033_std_periph_driver/inc -I ./n32g033_std_periph_driver/src -I ./CMSIS/core -I ./CMSIS/device/startup -I ./USER/src -I ./USER/inc -I ./CMSIS/device -I ./DVI/src -I ../N32G033-I"D:/keil5/Keil5 MDK541/Nsingtech/N32G033_DFP/0.1.0/firmware/CMSIS/device"-D__UVISION_VERSION="541" -DN32G033 -DUSE_STDPERIPH_DRIVER-o ./objects/app_flash.o -MMD)
-I (ALL.h)(0x6A3387F9)
+I (ALL.h)(0x6A388BC1)
 I (USER\inc\main.h)(0x6A33865F)
 I (CMSIS\device\n32g033.h)(0x6A338658)
 I (CMSIS\core\core_cm0.h)(0x6A338656)
@@ -532,10 +576,10 @@ I (n32g033_std_periph_driver\inc\n32g033_pwr.h)(0x6A33865C)
 I (n32g033_std_periph_driver\inc\misc.h)(0x6A33865A)
 I (USER\inc\h_uart.h)(0x6A33865F)
 I (..\N32G033\h_tim.h)(0x6A33865A)
-I (..\N32G033\h_433.h)(0x6A338659)
-I (..\N32G033\ALL.h)(0x6A3387F9)
+I (..\N32G033\h_433.h)(0x6A38EDCC)
+I (..\N32G033\ALL.h)(0x6A388BC1)
 F (.\h_uart.h)(0x6A33865A)()
 F (.\h_tim.h)(0x6A33865A)()
-F (.\h_433.h)(0x6A338659)()
-F (.\ALL.h)(0x6A3387F9)()
+F (.\h_433.h)(0x6A38EDCC)()
+F (.\ALL.h)(0x6A388BC1)()
 F (.\readme.txt)(0x6A338A59)()

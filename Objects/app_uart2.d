@@ -1,5 +1,6 @@
-./objects/main.o: USER\src\main.c USER\inc\main.h CMSIS\device\n32g033.h \
-  CMSIS\core\core_cm0.h CMSIS\device\system_n32g033.h \
+./objects/app_uart2.o: app_uart2.c dri_uart2.h USER\inc\main.h \
+  CMSIS\device\n32g033.h CMSIS\core\core_cm0.h \
+  CMSIS\device\system_n32g033.h \
   n32g033_std_periph_driver\inc\n32g033_exti.h \
   n32g033_std_periph_driver\inc\n32g033_gpio.h \
   n32g033_std_periph_driver\inc\n32g033_tim.h \
@@ -10,5 +11,4 @@
   n32g033_std_periph_driver\inc\n32g033_iwdg.h \
   n32g033_std_periph_driver\inc\n32g033_pwr.h \
   n32g033_std_periph_driver\inc\misc.h USER\inc\h_uart.h \
-  ..\N32G033\h_tim.h ..\N32G033\h_433.h ..\N32G033\ALL.h \
-  ..\N32G033\dri_uart2.h ..\N32G033\app_uart2.h
+  ..\N32G033\h_tim.h ..\N32G033\h_433.h ..\N32G033\ALL.h app_uart2.h

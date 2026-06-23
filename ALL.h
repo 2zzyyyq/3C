@@ -61,6 +61,7 @@ typedef struct
 
     uint8_t Enter_Pcba_test_time       ; // 进入PCBA测试滤波时间
     uint8_t Uart_Receive_Interval_time ; // 串口接收数据包间隔
+    uint8_t Uart2_Receive_Interval_time; // 串口2接收数据包间隔
     uint8_t _150ms_Count;               // 150ms计数
     uint8_t Zero_crossing_no_single_time;
     uint8_t Motor_Err_time;            // 电机堵转连续触发禁止时间

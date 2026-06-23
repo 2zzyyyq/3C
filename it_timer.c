@@ -49,6 +49,10 @@ void HAL_TIM_CNT_IRQHandler_BACK(void)
     {
    	 Time.Uart_Receive_Interval_time++;
     }
+    if(Time.Uart2_Receive_Interval_time<RECEIVE_DATA_PACKET_INTERVAL_TIME)
+    {
+   	 Time.Uart2_Receive_Interval_time++;
+    }
     if(Time.time5ms>=5)
     {
 	    Time.time5ms=0;
