@@ -106,6 +106,7 @@ int main(void)
     while (1)
 		{
           r_uart0_service();     // wifi处理
+          
           uart2_service();     // UART2数据处理
 
         //  Ovreweight_current_correct();
