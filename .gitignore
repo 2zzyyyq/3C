@@ -1,0 +1,52 @@
+# ============================================
+# Keil MDK / µVision IDE
+# ============================================
+
+# Build outputs
+Objects/
+Listings/
+
+# Keil user-specific files (keep .uvprojx — the shared project file)
+*.uvguix.*
+*.uvoptx
+*.uvguix
+
+# J-Link debugger logs and settings
+JLinkLog.txt
+JLinkSettings.ini
+
+# Event Recorder stub
+EventRecorderStub.scvd
+
+# ============================================
+# IDE / Editor
+# ============================================
+
+# Visual Studio Code — keep settings, ignore logs
+.vscode/*.log
+.vscode/*.log.lock
+
+# ============================================
+# OS generated files
+# ============================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================
+# Misc
+# ============================================
+
+# Backup files
+*.bak
+*.Bak
+*~
+
+# Temporary files
+*.tmp
